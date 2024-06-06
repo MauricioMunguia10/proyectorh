@@ -13,7 +13,7 @@ const LoginForm = () => {
   return (
     <form className={styles.form} action={formAction}>
       <h1>INICIAR SESIÓN</h1>
-      <div><input type="text" placeholder="username" name="username" /><FaRegUser /></div>
+      <div><input  type="text"  name="username" /><FaRegUser /></div>
       <div><input type="password" placeholder="password" name="password" ></input><IoKeyOutline /></div>
   
       <button className={styles.bbtn}>Login</button>

@@ -1,8 +1,12 @@
 .container{
+ 
   height: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.shadow{
+ 
 }
 .fondo{
   position: absolute;
@@ -38,7 +42,7 @@
 
 .wrapper{
   width: 500px;
- 
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   padding: 50px;
   display: flex;
   flex-direction: column;

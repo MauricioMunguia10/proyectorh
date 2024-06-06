@@ -6,10 +6,12 @@
 }
 
 .form input{
+  border-style: ;
+  border-color: grey;
   padding: 20px;
   background-color: var(--bg);
   color: var(--textColor);
-  border: none;
+ 
   border-radius: 5px;
 }
 
@@ -17,8 +19,18 @@
   padding: 20px;
   cursor: pointer;
   background-color: var(--btn);
-  color: var(--textColor);
   font-weight: bold;
   border: none;
   border-radius: 5px;
+}
+
+.bbtn{
+  color: white;
+}
+
+.bbtn:hover{
+  background-color: #4f709c;
+ color: white;
+ box-shadow: 0 4px 16px #4f709c;
+  transition: all 0.2s ease;
 }
