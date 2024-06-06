@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import ClientSideProviderTest from "@/components/clientSideProviderTest";
-
+import SideBar from "@/components/sideBar/sideBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* <ClientSideProviderTest> */}
           <div className="container">
-            <Navbar />
+            <SideBar/>
             {children}
             <Footer />
           </div>
