@@ -1,10 +1,10 @@
 .container{
     height: 100vh;
-    width: 20vw;
-    background-color: #F5EFE7;
+    width: 300px;
+    background-color: #f5e7e7;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0px;
     padding-left: 30px;
     padding-top: 35px;
   

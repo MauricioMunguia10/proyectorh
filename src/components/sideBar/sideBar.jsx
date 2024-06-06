@@ -6,6 +6,8 @@ import { GrDocumentText } from "react-icons/gr";
 import { GiCommercialAirplane } from "react-icons/gi";
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import { FaRegClock } from "react-icons/fa";
+import { FaGears } from "react-icons/fa6";
+import { FaUserCircle } from "react-icons/fa";
 
 
 
@@ -22,8 +24,8 @@ export default function SideBar (){
             </div>
            
            <div className={styles.links2}>
-           <Link href=""> <span><IoHome/></span> Inicio</Link>
-            <Link href=""> <span><GrDocumentText/></span>  Expediente Empleados</Link>
+           <Link href=""> <span><FaGears/></span> Inicio</Link>
+            <Link href=""> <span><FaUserCircle/></span>  Expediente Empleados</Link>
 
            </div>
         
