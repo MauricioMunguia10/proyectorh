@@ -21,9 +21,16 @@ export default function RootLayout({ children }) {
         {/* <ClientSideProviderTest> */}
           <div className="container">
 
+<<<<<<< HEAD
             {/* <Navbar /> */}
 
             <SideBar/>
+=======
+
+
+            <SideBar/>
+
+>>>>>>> 9474c4a6946e2f24a378a2f91c2130d3d8f0df99
             {children}
             <Footer />
           </div>
