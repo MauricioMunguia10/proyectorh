@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  gap: 100px;
+  left: 300px;
+  position: relative;
+  width: calc(100vw - 300px);
+  height: calc(100vh - 100px);
+  background-color: white;
+  padding-left: 30px;
+}
