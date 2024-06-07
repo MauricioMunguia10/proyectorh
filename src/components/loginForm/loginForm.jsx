@@ -14,10 +14,10 @@ const LoginForm = () => {
     <div> {/* Elimina el Layout aquí */}
       <form className={styles.form} action={formAction}>
         <h1 className={styles.titulo}>INICIAR SESIÓN</h1>
-        <div className={styles.divs}><input  type="text"  name="username" ></input><FaRegUser className={styles.icon}/></div>
-        <div className={styles.divs}><input type="password" placeholder="password" name="password" ></input><IoKeyOutline className={styles.icon} /></div>
+        <div className={styles.tesssto}>Usuario<br/><div className={styles.divs}><input  type="text"  name="username" ></input><FaRegUser className={styles.icon}/></div></div>
+        <div className={styles.tesssto}>Contraseña<div className={styles.divs}><input type="password"  name="password" ></input><IoKeyOutline className={styles.icon} /></div></div>
     
-        <button className={styles.bbtn}>Login</button>
+        <button className={styles.bbtn}>Iniciar</button>
         {state?.error}
        
       </form>

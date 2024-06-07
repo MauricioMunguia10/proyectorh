@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* <ClientSideProviderTest> */}
           <div className="container">
-          <SideBar/> 
-            <Navbar/>
+          {/* <SideBar/> 
+            <Navbar/> */}
             
 
             {children}
