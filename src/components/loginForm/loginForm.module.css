@@ -6,14 +6,27 @@
 }
 
 .form input{
-  border-style: ;
-  border-color: grey;
-  padding: 20px;
-  background-color: var(--bg);
-  color: var(--textColor);
- 
-  border-radius: 5px;
+  border: none;
+  background-color: #F5EFE7;;
+
 }
+
+
+.form input:focus {
+  /* Estilos específicos para cuando el input está enfocado */
+  /* Por ejemplo: */
+  outline: none; /* Eliminar el contorno de enfoque predeterminado */
+}
+.divs{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px; 
+ 
+  display: flex;
+  justify-content: center;
+  
+}
+
+
 
 .form button{
   padding: 20px;
@@ -26,6 +39,7 @@
 
 .bbtn{
   color: white;
+  border-radius: 50px;
 }
 
 .bbtn:hover{
@@ -33,4 +47,11 @@
  color: white;
  box-shadow: 0 4px 16px #4f709c;
   transition: all 0.2s ease;
+}
+
+.titulo{
+  font-family: "Jockey One", sans-serif;
+  font-weight:  800;
+  font-style: normal;
+ 
 }

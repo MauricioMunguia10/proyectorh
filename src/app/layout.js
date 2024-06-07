@@ -1,3 +1,4 @@
+
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
@@ -14,13 +15,16 @@ export const metadata = {
   description: "Next.js starter app description",
 };
 
+
 export default function RootLayout({ children }) {
+ 
+ 
   return (
     <html lang="en">
       <body className={inter.className}>
         {/* <ClientSideProviderTest> */}
           <div className="container">
-          <SideBar/>
+          <SideBar/> 
             <Navbar/>
             
 

@@ -11,17 +11,17 @@ const LoginForm = () => {
   const [state, formAction] = useFormState(login, undefined);
 
   return (
-    <form className={styles.form} action={formAction}>
-      <h1>INICIAR SESIÓN</h1>
-      <div><input  type="text"  name="username" /><FaRegUser /></div>
-      <div><input type="password" placeholder="password" name="password" ></input><IoKeyOutline /></div>
-  
-      <button className={styles.bbtn}>Login</button>
-      {state?.error}
-      <Link href="/register">
-        {"Don't have an account?"} <b>Register</b>
-      </Link>
-    </form>
+    <div> {/* Elimina el Layout aquí */}
+      <form className={styles.form} action={formAction}>
+        <h1 className={styles.titulo}>INICIAR SESIÓN</h1>
+        <div className={styles.divs}><input  type="text"  name="username" ></input><FaRegUser className={styles.icon}/></div>
+        <div className={styles.divs}><input type="password" placeholder="password" name="password" ></input><IoKeyOutline className={styles.icon} /></div>
+    
+        <button className={styles.bbtn}>Login</button>
+        {state?.error}
+       
+      </form>
+    </div>
   );
 };
 
