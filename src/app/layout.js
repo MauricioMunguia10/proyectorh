@@ -20,14 +20,12 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* <ClientSideProviderTest> */}
           <div className="container">
-
-            <SideBar/>
-
-
-            <SideBar/>
+          <SideBar/>
+            <Navbar/>
+            
 
             {children}
-            <Footer />
+      
           </div>
         {/* </ClientSideProviderTest> */}
       </body>

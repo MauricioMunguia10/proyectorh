@@ -1,5 +1,5 @@
 import styles from './expediente.module.css'
-import Card from './card/card';
+import Card from '../../components/card/card';
 const Expediente = () => {
     return (
       <div className={styles.container}>
