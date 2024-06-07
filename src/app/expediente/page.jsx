@@ -5,7 +5,6 @@ import ModalExpediente from "@/components/modalExpediente/modal";
 import PersonIcon from "@mui/icons-material/Person";
 import { useState } from "react";
 import { useEffect } from "react";
-import LayoutInterno from "@/components/layoutInterno/LayoutInterno";
 
 const Expediente = () => {
   const [visible, setVisible] = useState(true);
@@ -17,7 +16,6 @@ const Expediente = () => {
   };
 
   return (
-    <LayoutInterno>
       <div className={styles.container}>
         <h2>Expedinete Empleados</h2>
 
@@ -41,7 +39,6 @@ const Expediente = () => {
           />
         </div>
       </div>
-    </LayoutInterno>
   );
 };
 
