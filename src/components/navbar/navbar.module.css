@@ -16,3 +16,8 @@
   font-size: 30px;
   font-weight: bold;
 }
+.linksContainer{
+  position: absolute;
+  right: 0;
+  padding-right: 10px;
+}

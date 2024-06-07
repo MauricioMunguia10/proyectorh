@@ -16,8 +16,8 @@ export default function SideBar (){
         <div className={styles.container}>
             <Image src="/Logo-vasa.png" width={80} height={30}/>
             <div className={styles.links1}>
-            <Link href=""> <span><IoHome/></span> Inicio</Link>
-            <Link href=""> <span><GrDocumentText/></span>  Expediente Empleados</Link>
+            <Link href="/"> <span><IoHome/></span> Inicio</Link>
+            <Link href="/expediente"> <span><GrDocumentText/></span>  Expediente Empleados</Link>
             <Link href=""> <span><GiCommercialAirplane/></span> Vacaciones</Link>
             <Link href=""> <span><CelebrationIcon/></span> Cumpleaños</Link>
             <Link href=""> <span><FaRegClock/></span> Horas Trabajadas</Link>

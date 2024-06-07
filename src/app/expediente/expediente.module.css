@@ -1,18 +1,78 @@
 .container{
-    padding: 0;
-    margin: 0;
-    left: 215px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
-    gap: 100px;
     left: 300px;
     position: relative;
     width: calc(100vw - 300px);
     height: calc(100vh - 100px);
-    background-color: white;
     padding-left: 30px;
 }
 .containerExpedientes{
-    margin-left: 10px;
-    margin-top: 40px;
+    position: absolute;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: auto;
+    overflow-y: auto;
+    max-height: 75vh;
+    padding-bottom: 20px;
+  
 }
+.containerExpedientes::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  .containerExpedientes::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #ececec;
+  }
+  
+  .containerExpedientes::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+  }
+  
+  .containerExpedientes::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+  }
+  
+  .containerExpedientes::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: var(--bgSoft);
+  }
+  
+  .containerExpedientes::-webkit-scrollbar-thumb:hover {
+    background-color: var(--bgSoft);
+  }
+  
+  .containerExpedientes::-webkit-scrollbar-thumb:active {
+    background-color: var(--bgSoft);
+  }
+
+  .modal{
+    width: 55%;
+    height: 500px;
+    background-color: aqua;
+    position: absolute;
+    left: 200px;
+    top: 0%;
+    z-index: 1;
+  }
+
+  .modalInvisible{
+    display: none;
+  }
+  .side{
+    width: 27%;
+    height: 100%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 25%;
+  }
+
+  .side svg{
+    font-size: 70px;
+    margin-bottom: 60%;
+  }
